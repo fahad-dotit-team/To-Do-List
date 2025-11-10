@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 25px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 320px;
+  height: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+.task-text {
+  flex: 1;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.action-btns button {
+  margin-left: 5px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.edit-btn {
+  background-color: #1982d7;
+}
+
+.delete-btn {
+  background-color: #f44336;
+}
